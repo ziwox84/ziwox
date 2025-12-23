@@ -32,7 +32,7 @@ QUEST_SETTINGS={
 POTION_SETTINGS={
     USE_POTIONS = true,
     CLAIM_BLESSING = true, -- Claims W1 and W3 Blessings
-    POTIONS_TO_USE = { "Lucky", "Speed", "Mythic", "Egg Elixir", "Infinity Elixir", "Festive Elixir", "Festive Infinity Elixir", "Ultra Infinity Elixir" },
+    POTIONS_TO_USE = { "Lucky", "Speed", "Mythic", "Egg Elixir", "Infinity Elixir", "Secret Elixir", "Festive Infinity Elixir", "Ultra Infinity Elixir", "Festive Elixir" },
     BLESSING_POTIONS  = { "Lucky"}, -- Potions for W1 Blessing
     BULK_POTION_USAGE = true, -- (Claims 1 Day of all potions)
     },
