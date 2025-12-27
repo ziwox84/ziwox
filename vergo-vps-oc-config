@@ -14,8 +14,8 @@ HATCHING_SETTINGS={
     RIFT_SETTINGS={
         LOOK_FOR_RIFTS = true, -- Enables or disables rift finding
         MINIMUM_LUCK = 5, -- Minimum Rift Luck multiplier to go for
-        SUMMONED_RIFTS = false, -- Admin Abuse
-        TARGETS = {"Aurora Egg"}
+        SUMMONED_RIFTS = true, -- Admin Abuse
+        TARGETS = {"Nostalgia Egg", "Aurora Egg"}
         },
     },
 QUEST_SETTINGS={
