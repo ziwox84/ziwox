@@ -60,7 +60,7 @@ MINIGAME_SETTINGS={
     GOLDEN_DICE_AMOUNT = 2
     },
 ENCHANT_SETTINGS={
-    ENCHANT_PETS = true,
+    ENCHANT_PETS = false,
     USE_SHADOW_CRYSTAL = true,
     SECRET_PET_ENCHANTMENTS={
         ["Secret Hunter"] = {Tier = 1, HigherTiers = true},
