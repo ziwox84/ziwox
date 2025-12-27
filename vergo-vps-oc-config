@@ -39,7 +39,7 @@ POTION_SETTINGS={
 PET_SETTINGS={
     GAME_AUTO_DELETE = false, -- Enables or Disables ingame auto delete
     AUTO_DELETE = false, -- Uses script's Auto Delete 
-    EQUIP_SECRETS = true, -- Enables or disables Secret pet equipping when hatching.
+    EQUIP_SECRETS = false, -- Enables or disables Secret pet equipping when hatching.
     ALLOWED_SECRETS = {"Crystal Snowman", "Festive Snow Jar", "Borealis Elk", "Giftbox King Doggy", "The Golden Ticket", "Santa Nert Plushie"}
     },
 
