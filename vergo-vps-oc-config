@@ -14,8 +14,8 @@ HATCHING_SETTINGS={
     RIFT_SETTINGS={
         LOOK_FOR_RIFTS = true, -- Enables or disables rift finding
         MINIMUM_LUCK = 5, -- Minimum Rift Luck multiplier to go for
-        SUMMONED_RIFTS = true, -- Admin Abuse
-        TARGETS = {"Nostalgia Egg", "Aurora Egg"}
+        SUMMONED_RIFTS = false, -- Admin Abuse
+        TARGETS = {"Aurora Egg"}
         },
     },
 QUEST_SETTINGS={
@@ -25,7 +25,7 @@ QUEST_SETTINGS={
     DO_SEASON_PASS_HOURLY = false,
     DO_SEASON_PASS_DAILY = false,
     DO_JOLLYTRIO = false,
-    DO_SECRET_SANTA = true,
+    DO_SECRET_SANTA = false,
     GEM_GENIE_REWARDS = {"Ultra Infinity Elixir", "Shadow Crystal", "Reroll Orb"},
     JOLLLYTRIO_REWARDS = {"Ultra Infinity Elixir", "Festive Infinity Elixir", "Shadow Crystal"}
     },
@@ -39,7 +39,7 @@ POTION_SETTINGS={
 PET_SETTINGS={
     GAME_AUTO_DELETE = false, -- Enables or Disables ingame auto delete
     AUTO_DELETE = false, -- Uses script's Auto Delete 
-    EQUIP_SECRETS = false, -- Enables or disables Secret pet equipping when hatching.
+    EQUIP_SECRETS = true, -- Enables or disables Secret pet equipping when hatching.
     ALLOWED_SECRETS = {"Crystal Snowman", "Festive Snow Jar", "Borealis Elk", "Giftbox King Doggy", "The Golden Ticket", "Santa Nert Plushie"}
     },
 
@@ -60,7 +60,7 @@ MINIGAME_SETTINGS={
     GOLDEN_DICE_AMOUNT = 2
     },
 ENCHANT_SETTINGS={
-    ENCHANT_PETS = false,
+    ENCHANT_PETS = true,
     USE_SHADOW_CRYSTAL = true,
     SECRET_PET_ENCHANTMENTS={
         ["Secret Hunter"] = {Tier = 1, HigherTiers = true},
@@ -95,7 +95,7 @@ MISC_SETTINGS={
     BLOW_BUBBLES = false,
     },
 CHRISTMAS_EVENT_SETTINGS={
-    MINIMUM_SNOWFLAKES = 50000000000, --//Minimum Amount to have to go for XMAS World Eggs
+    MINIMUM_SNOWFLAKES = 5000, --//Minimum Amount to have to go for XMAS World Eggs
     HOUSE_GRINDING = false,
     HOUSE_COOLDOWN = 20, -- in minutes
     CLAIM_ADVENT_CALENDAR = false,
